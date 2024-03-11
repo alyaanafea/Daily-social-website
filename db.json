@@ -1,0 +1,160 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "john",
+      "email": "john@gmail.com",
+      "password": "john123",
+      "profilePic": "src/assets/images/user1.avif"
+    },
+    {
+      "id": "2",
+      "username": "ahmed2",
+      "email": "ahmed2@gmail.com",
+      "password": "123qwe",
+      "profilePic": "src/assets/images/user2.avif"
+    },
+    {
+      "id": "3",
+      "username": "omar nafea",
+      "email": "omarnafea@gmail.com",
+      "password": "omar123",
+      "profilePic": "src/assets/images/user6.avif"
+    },
+    {
+      "id": "4",
+      "username": "heba mo",
+      "email": "hebamo@gmail.com",
+      "password": "heba123",
+      "profilePic": "src/assets/images/user4.avif"
+    },
+    {
+      "id": "5",
+      "username": "Asmaa said",
+      "email": "asmaasaid@gmail.com",
+      "password": "asmaa123",
+      "profilePic": "src/assets/images/user5.avif"
+    },
+    {
+      "id": "6",
+      "username": "alyaa nafea ",
+      "email": "alyaanafea@gmail.com",
+      "password": "alyaa123",
+      "profilePic": "src/assets/images/user3.avif"
+    },
+    {
+      "id": "BGZ8wZWK80",
+      "username": "nohaaa",
+      "email": "abdullahnafea000@gmail.com",
+      "password": "1231qa",
+      "profilePic": "src/assets/images/user7.avif"
+    },
+    {
+      "id": "LgQlcuXsSf",
+      "username": "alyaa",
+      "email": "alyaa@gmail.com",
+      "password": "alyaa222",
+      "profilePic": "src/assets/images/user10.avif"
+    },
+    {
+      "id": "XC58WPk9Wu",
+      "username": "alyaan",
+      "email": "an@gmail.com",
+      "password": "123456",
+      "profilePic": "src/assets/images/user8.avif"
+    },
+    {
+      "id": "XVsWKUMuDC",
+      "username": "abdo",
+      "email": "abdo@gmail.com",
+      "password": "abdo123",
+      "profilePic": "src/assets/images/user8.avif"
+    },
+    {
+      "id": "B4KLx7KeX7",
+      "username": "reham nafea",
+      "email": "reham@gmail.com",
+      "password": "reham1234",
+      "profilePic": "src/assets/images/user3.avif"
+    }
+  ],
+  "posts": [
+    {
+      "userid": "B4KLx7KeX7",
+      "id": "5",
+      "title": "my dog 🦮",
+      "image": "blob:http://localhost:5173/289cbe90-1854-40d0-bee2-924e54d49e48",
+      "body": "meet my cutie dog with his new "
+    },
+    {
+      "userid": "3",
+      "id": "3",
+      "title": "great pic love it👌💖",
+      "image": "src/assets/images/post3.avif",
+      "body": ""
+    },
+    {
+      "userid": "4",
+      "id": "4",
+      "title": "love cherry blossoms🌺",
+      "image": "src/assets/images/post4.avif",
+      "body": ""
+    },
+    {
+      "userid": "1",
+      "id": "1",
+      "title": "hiiiiiiiii❤😊",
+      "image": "src/assets/images/post1.avif",
+      "body": "helllooooooooooooo❤"
+    },
+    {
+      "userid": "2",
+      "id": "2",
+      "title": "pic of you💖",
+      "image": "src/assets/images/post2.avif",
+      "body": "you are great like sky and stars 'love yourself'"
+    },
+    {
+      "userid": "LgQlcuXsSf",
+      "id": "55",
+      "title": "morning 😋👌",
+      "image": "src/assets/images/post6.avif",
+      "body": "having a great time with this great bakeries"
+    },
+    {
+      "id": "LgQlcuXsSf",
+      "title": "svd",
+      "body": "vcx",
+      "image": "blob:http://localhost:5173/dab66a92-d903-49a3-8b1b-96bf4c5917a3",
+      "userid": "XVsWKUMuDC"
+    },
+    {
+      "userid": "LgQlcuXsSf",
+      "id": "88",
+      "title": "morning 😋👌",
+      "image": "src/assets/images/post6.avif",
+      "body": "having a great time with this great bakeries"
+    },
+    {
+      "id": "rgLXI8e87S",
+      "title": "svd",
+      "body": "vcx",
+      "image": "blob:http://localhost:5173/dab66a92-d903-49a3-8b1b-96bf4c5917a3",
+      "userid": "XVsWKUMuDC"
+    },
+    {
+      "id": "B4KLx7KeX7",
+      "title": "dv",
+      "body": "dvv",
+      "image": "blob:http://localhost:5173/ae75d9ee-305e-4a8e-919c-d8d28770c331",
+      "userid": "XVsWKUMuDC"
+    },
+    {
+      "id": "H9F6c3q16G",
+      "title": "helloo",
+      "body": "whyyyy",
+      "image": "blob:http://localhost:5173/e0890fff-b720-4027-9eac-b705727de516",
+      "userid": "B4KLx7KeX7"
+    }
+  ]
+}
