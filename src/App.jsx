@@ -3,7 +3,7 @@ import AddPostPage from "./Pages/AddPost";
 import Home from "./Pages/Home";
 import Login from "./Pages/Login";
 import Register from "./Pages/Register";
-import { Routes, BrowserRouter, Route, Navigate } from "react-router-dom";
+import { Routes, BrowserRouter, Route, Navigate} from "react-router-dom";
 import ResponsiveAppBar from "./Components/Navbar";
 import EditPost from "./Pages/EditPost";
 
@@ -13,6 +13,7 @@ function App() {
   const [user, setuser] = useState({});
 
   const token = localStorage.getItem("token");
+
 
   useEffect(() => {
     const fetchusers = async () => {
@@ -55,7 +56,30 @@ function App() {
         <Route path="/register" element={<Register />} />
       </Routes>
     </BrowserRouter>
+  
+
+  //   <BrowserRouter>
+  // {token && <ResponsiveAppBar token={token} user={user} />}
+  // <Routes>
+  //  <Route path="/" element={!token?<Login />:<Navigate to={"/home"} />} />
+  //  <Route
+  //    path="/home"
+  //    element={token?<Home users={users} user={user} userid={userid} />:<Login />}
+  //  />
+  //  <Route
+  //    path="/post/:id"
+  //    element={token?<EditPost user={user} userid={userid} />:<Login/>}
+  //  />
+  //  <Route
+  //    path="/post/add"
+  //    element={token?<AddPostPage userid={userid} user={user} />:<Login/>}
+  //  />
+  //  <Route path="/register" element={< Register />} />
+  // </Routes>
+  // </BrowserRouter> 
   );
+  
 }
 
 export default App;
+

@@ -57,7 +57,7 @@ export default function EditPost({ user, userid }) {
           style={{ marginBottom: 10 }}
         />
         <Button type="submit" variant="contained" color="primary">
-          Add Post
+          Edit Post
         </Button>
       </form>
     </>

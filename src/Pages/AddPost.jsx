@@ -7,11 +7,7 @@ import { useForm } from "react-hook-form";
 import { useNavigate } from "react-router-dom";
 
 const AddPostContainer = styled("div")({
-  display: "flex",
-  flexDirection: "column",
-  maxWidth: 400,
-  margin: "auto",
-  marginTop: 20,
+ margin:"20px"
 });
 
 const AddPostPage = ({ user, userid }) => {
