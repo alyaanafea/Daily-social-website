@@ -19,6 +19,8 @@ function ResponsiveAppBar(props) {
     localStorage.removeItem("token");
     localStorage.removeItem("id");
     navigate("/");
+    location.reload()
+    //sorry for that
   };
 
   return (

@@ -28,6 +28,8 @@ export default function Login() {
           console.log(users);
           localStorage.setItem("token", token);
           navigate("/home");
+          location.reload()
+          //sorry for that
         }
       } else if (response.status === 401) {
         throw new Error("Unauthorized: Incorrect credentials");

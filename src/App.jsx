@@ -37,46 +37,46 @@ function App() {
   }, []);
 
   return (
-    <BrowserRouter>
-      {token && <ResponsiveAppBar token={token} user={user} />}
-      <Routes>
-        <Route path="/" element={<Login />} />
-        <Route
-          path="/home"
-          element={<Home users={users} user={user} userid={userid} />}
-        />
-        <Route
-          path="/post/:id"
-          element={<EditPost user={user} userid={userid} />}
-        />
-        <Route
-          path="/post/add"
-          element={<AddPostPage userid={userid} user={user} />}
-        />
-        <Route path="/register" element={<Register />} />
-      </Routes>
-    </BrowserRouter>
+    // <BrowserRouter>
+    //   {token && <ResponsiveAppBar token={token} user={user} />}
+    //   <Routes>
+    //     <Route path="/" element={<Login />} />
+    //     <Route
+    //       path="/home"
+    //       element={<Home users={users} user={user} userid={userid} />}
+    //     />
+    //     <Route
+    //       path="/post/:id"
+    //       element={<EditPost user={user} userid={userid} />}
+    //     />
+    //     <Route
+    //       path="/post/add"
+    //       element={<AddPostPage userid={userid} user={user} />}
+    //     />
+    //     <Route path="/register" element={<Register />} />
+    //   </Routes>
+    // </BrowserRouter>
   
 
-  //   <BrowserRouter>
-  // {token && <ResponsiveAppBar token={token} user={user} />}
-  // <Routes>
-  //  <Route path="/" element={!token?<Login />:<Navigate to={"/home"} />} />
-  //  <Route
-  //    path="/home"
-  //    element={token?<Home users={users} user={user} userid={userid} />:<Login />}
-  //  />
-  //  <Route
-  //    path="/post/:id"
-  //    element={token?<EditPost user={user} userid={userid} />:<Login/>}
-  //  />
-  //  <Route
-  //    path="/post/add"
-  //    element={token?<AddPostPage userid={userid} user={user} />:<Login/>}
-  //  />
-  //  <Route path="/register" element={< Register />} />
-  // </Routes>
-  // </BrowserRouter> 
+    <BrowserRouter>
+  {token && <ResponsiveAppBar token={token} user={user} />}
+  <Routes>
+   <Route path="/" element={!token?<Login />:<Navigate to={"/home"} />} />
+   <Route
+     path="/home"
+     element={token?<Home users={users} user={user} userid={userid} />:<Login />}
+   />
+   <Route
+     path="/post/:id"
+     element={token?<EditPost user={user} userid={userid} />:<Login/>}
+   />
+   <Route
+     path="/post/add"
+     element={token?<AddPostPage userid={userid} user={user} />:<Login/>}
+   />
+   <Route path="/register" element={!token?< Register />:<Navigate to={"/home"} />} />
+  </Routes>
+  </BrowserRouter> 
   );
   
 }
